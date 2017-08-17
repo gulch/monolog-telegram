@@ -1,0 +1,14 @@
+{
+  "name": "gulch/monolog-telegram",
+  "description": "Telegram Handler For Monolog",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1",
+    "ext-curl": "*",
+    "monolog/monolog": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {"Gulch\\MonologTelegram": "src/"}
+  }
+}
